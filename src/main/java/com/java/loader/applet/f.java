@@ -49,7 +49,7 @@ implements MouseListener {
         this.var_javax_swing_JFrame_a.setLocation(this.var_javax_swing_JLabel_a.getLocationOnScreen().x + 15, this.var_javax_swing_JLabel_a.getLocationOnScreen().y + 10);
         this.var_javax_swing_JFrame_a.setSize(395, 85);
         this.var_javax_swing_JFrame_a.getContentPane().setLayout(null);
-        JLabel label = new JLabel("<html><b color=\"red\"><i>Currently disabled</b></i><br>While autoclicking, VeneClicker will simulate mouse movements for the user.<br><br><code><span bgcolor=\"#6A6D72\">|X-Axis|</span></code> The absolute value of the x-axis jitter range. -x &lt;= val &lt;= x<br><code><span bgcolor=\"#6A6D72\">|Y-Axis|</span></code> The absolute value of the y-axis jitter range. -y &lt;= val &lt;= y</html>");
+        JLabel label = new JLabel("<html><b color=\"green\"><i>Currently enabled</b></i><br>While autoclicking, VeneClicker will simulate mouse movements for the user.<br><br><code><span bgcolor=\"#6A6D72\">|X-Axis|</span></code> The absolute value of the x-axis jitter range. -x &lt;= val &lt;= x<br><code><span bgcolor=\"#6A6D72\">|Y-Axis|</span></code> The absolute value of the y-axis jitter range. -y &lt;= val &lt;= y</html>");
         label.setFont(d.java_awt_Font_a(this.var_com_java_loader_applet_d_a));
         label.setBounds(5, 5, 385, 75);
         label.setForeground(new Color(42, 172, 255));
