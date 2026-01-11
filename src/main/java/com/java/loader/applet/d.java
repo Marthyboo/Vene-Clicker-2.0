@@ -282,6 +282,7 @@ extends JFrame {
         ((JTextField)object4).setHorizontalAlignment(0);
         ((JTextComponent)object4).setText("|" + com.java.loader.c.var_int_e + "|");
         ((Component)object4).setBounds(254, 90, 28, 26);
+        ((Component)object4).setEnabled(false);
         mainPanel.add((Component)object4);
         object2 = new JFormattedTextField((JFormattedTextField.AbstractFormatter)object2);
         ((JComponent)object2).setBorder(null);
@@ -290,6 +291,7 @@ extends JFrame {
         ((JTextField)object2).setHorizontalAlignment(0);
         ((JTextComponent)object2).setText("|" + com.java.loader.c.var_int_f + "|");
         ((Component)object2).setBounds(254, 110, 28, 26);
+        ((Component)object2).setEnabled(false);
         mainPanel.add((Component)object2);
         ((JTextField)object4).addActionListener(new g(d2, (JFormattedTextField)object4));
         ((JTextField)object2).addActionListener(new h(d2, (JFormattedTextField)object2));
