@@ -5,7 +5,6 @@ package com.java.loader;
 
 import java.awt.MouseInfo;
 import java.awt.Robot;
-import java.security.SecureRandom;
 
 public class a {
     private Robot var_java_awt_Robot_a;
@@ -13,33 +12,12 @@ public class a {
 
     public a() throws java.awt.AWTException {
         this.var_java_awt_Robot_a = new Robot();
+        // Warm-up to prevent initial twitch
+        this.var_java_awt_Robot_a.mouseMove(MouseInfo.getPointerInfo().getLocation().x, MouseInfo.getPointerInfo().getLocation().y);
     }
 
     static double double_a() {
-        double d2;
-        double d3;
-        double d4 = Double.MAX_VALUE;
-        double d5 = Double.MIN_VALUE;
-        int n2 = 0;
-        while (n2 < 20) {
-            double d6;
-            d3 = System.nanoTime();
-            new SecureRandom().nextInt();
-            double d7 = System.nanoTime();
-            double d8 = d7 - d3;
-            if (d8 < d4 && d8 > 0.0) {
-                d4 = d8;
-            } else if (d8 > d5 && d8 > 0.0) {
-                d5 = d8;
-            }
-            ++n2;
-        }
-        String string = String.valueOf(d5 / d4);
-        d3 = Double.valueOf("0." + string.substring(string.indexOf(46) + 2));
-        if (d3 < 0.1) {
-            return com.java.loader.a.double_a();
-        }
-        return d3;
+        return Math.random();
     }
 
     public long long_a() {
