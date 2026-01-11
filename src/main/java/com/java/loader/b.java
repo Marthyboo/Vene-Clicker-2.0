@@ -43,18 +43,12 @@ extends Thread {
             } else {
                 this.var_com_java_loader_a_a.b();
             }
-            if (c.var_int_e != 0 || c.var_int_f != 0) {
-                this.var_com_java_loader_a_a.a(c.var_int_e, c.var_int_f);
-            }
             com.java.loader.b.a(l2);
             if (!this.var_boolean_a || !c.isMinecraftActive()) continue;
             if (this.b) {
                 this.var_com_java_loader_a_a.c();
             } else {
                 this.var_com_java_loader_a_a.void_a();
-            }
-            if (c.var_int_e != 0 || c.var_int_f != 0) {
-                this.var_com_java_loader_a_a.a(c.var_int_e, c.var_int_f);
             }
         }
     }
