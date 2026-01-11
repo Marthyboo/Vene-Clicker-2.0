@@ -5,6 +5,7 @@ Veneclicker decompiled and improved
 - Skidded but improved
 - Right clicker slider
 - only in minecraft feature works
-- jitter removed since its annoying
+- jitter works, added as a slider
 - better config, specific names
+- raw cps based on OS
 
